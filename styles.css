@@ -99,11 +99,11 @@ form button svg {
 }
 form button:hover svg {
     fill: rgb(255, 255, 255);
-    transition:100ms;
+    transition:200ms;
 }
 form button:hover {
     background-color: rgb(87, 115, 182);
-    transition:500ms;
+    transition:200ms;
 }
 
 form input {
