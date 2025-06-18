@@ -90,7 +90,20 @@ form button {
     background-color: transparent;
     border:none;
     cursor: pointer;
-
+    padding: 5px 8px;
+    border-radius: 400px;
+}
+form button svg {
+    position: relative;
+    bottom:-2px;
+}
+form button:hover svg {
+    fill: rgb(255, 255, 255);
+    transition:100ms;
+}
+form button:hover {
+    background-color: rgb(87, 115, 182);
+    transition:500ms;
 }
 
 form input {
@@ -107,6 +120,10 @@ form input:placeholder-shown {
     letter-spacing: 1px;
 }
 
+form input:hover {
+    background-color: rgb(240, 240, 240);
+    transition: 200ms;
+}
 form input:focus {
     background-color: white;
     box-shadow: 1px 1px 12px gray;
