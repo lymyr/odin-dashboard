@@ -279,7 +279,7 @@ form input:focus {
     padding:16px;
     box-shadow: var(--box-shadow-px) var(--box-shadow-color);
     border-radius: var(--content-radius);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     background-color: white;
 }
 
